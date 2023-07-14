@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="index.html"><img class="casa" src="casa.png" alt=""></a>
+    <h2>login</h2>
+    <form action="">
+        <label for="">usuario</label>
+        <input type="text">
+
+        <label for="">contraseña</label>
+        <input type="text">
+        <br>
+        <input id="check" type="checkbox">Aceptar politicas de privacidad
+
+        <button id="btn" disabled>aceptar</button>
+    
+
+    </form>
+
+    <script type="text/javascript">
+ 
+        function cambiar () {
+         document.getElementById('matrix').src = "lupa.png";
+        }
+        
+        function volver () {
+         document.getElementById('matrix').src = "monopatin1.jpg";
+        }
+        
+       </script>
+       
+       <a href="#" onMouseOver="cambiar();" onMouseOut="volver();">Al pasar sobre mi cambiará la imagen</a>
+       <img src="monopatin1.jpg" id="matrix"/>
+    <script src="login.js"></script>
+</body>
+        
+</html>

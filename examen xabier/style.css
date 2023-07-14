@@ -1,0 +1,55 @@
+.menu{
+   width: 2rem ;
+}
+img.casa{
+    width: 2rem;
+}
+img.formulario{
+    width: 2rem;
+}
+
+div.header-container{
+  column-count:3 ;
+  column-gap: 3rem;
+  column-rule: 1rem dotted silver;
+  background-color: rgb(56, 160, 245);
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+
+
+.patinete-volador{
+    width: 100%;
+}
+
+.patinete{
+    width: 100%;
+}
+.tarjeta{
+  width: 20rem;  
+  
+align-items: center;
+}
+.monopatin1{
+    width: 20rem;
+    
+}
+
+.tarjetas{
+    width: 20rem;
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+
+}
+
+.taejeta1{
+    display: flex;
+    justify-content:center;
+}
+
+
+    
